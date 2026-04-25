@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "wuhu!!",
+  "authors": [],
+  "contact": {
+    "website": "${mod_homepage}",
+    "homepage": "${mod_sources}",
+    "sources": "${mod_sources}",
+    "repo": "https://github.com/zhaixianyu"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/carpet_wh_addition/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.zxy.carpet_wh_addition.CarpetWuHuAddition"
+    ]
+  },
+  "mixins": [
+    "carpet-wuhu.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${minecraft_dependency}",
+    "carpet": "*"
+  }
+}

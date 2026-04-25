@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.zxy.carpet_wh_addition.mixin",
+  "compatibilityLevel": "${compatibility_level}",
+  "mixins": [
+    "AnvilScreenHandlerMixin",
+    "ArmorStandEntityMixin",
+    "EnderDragoEntityMixin",
+    "PlayerEntityMixin",
+    "infiniteTreasureTrove.VaultServerDataMixin",
+    "openInv.InventoryMixin",
+    "openInv.MixinGenericContainerScreenHandler",
+    "openInv.MixinLootableContainerBlockEntity",
+    "openInv.MixinPlayerEntity",
+    "openInv.MixinServerPlayerEntity",
+    "openInv.MixinServerWorld",
+    "openInv.PlayerManagerMixin",
+    "PlacementAndDestruction.ServerPlayerInteractionManagerMixin",
+    "PlacementAndDestruction.ServerPlayNetworkHandlerMixin",
+    "setting.ParsedRuleAccessor",
+    "setting.SettingsManagerAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
